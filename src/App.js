@@ -1,13 +1,7 @@
-import Button from "./Button";
-import styles from "./App.module.css";
+//* To Do list
 
 function App() {
-  return (
-    <div>
-      <h1 className={styles.title}>Hi there!</h1>
-      <Button text={"Continue"} />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
