@@ -93,6 +93,10 @@ The app will be deployed to: https://feelsuegood.github.io/lets-react
 
 This project is for personal and educational purposes.
 
+## Acknowledgements
+- [Movie Application](https://dribbble.com/shots/2442798-Movie-Application)
+- [React for Beginners](https://nomadcoders.co/react-for-beginners)
+
 ## Planned Improvements
 
 1. Detail Page Enhancement
