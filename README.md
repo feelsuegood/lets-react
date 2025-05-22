@@ -15,8 +15,6 @@
   }
 ```
 
-not sure yet  
-vscode settings.json
- {
-     "json.schemaDownload.enable": false
-   }
+
+## CSS Reference
+   https://dribbble.com/shots/2442798-Movie-Application
