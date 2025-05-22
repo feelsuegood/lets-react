@@ -16,6 +16,28 @@ lets-react/
     └── routes/        # Route components
 ```
 
+### React-2019 Branch
+**Important: Branch Switching Instructions**
+1. Checkout to react-2019 branch
+2. Remove existing dependencies:
+   ```bash
+   rm -rf node_modules package-lock.json
+   ```
+3. Install specific Node.js version:
+   ```bash
+   nvm install 16
+   nvm use 16
+   ```
+4. Install dependencies:
+   ```bash
+   npm install
+   ```
+5. Start with legacy OpenSSL provider:
+   ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
+   npm start
+   ```
+
 ## Technologies Used
 
 - React 19.1.0
