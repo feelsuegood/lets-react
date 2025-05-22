@@ -1,5 +1,27 @@
 # React 2019
+### ‼️ Be sure to follow the command execution order
+```bash
+rm -rf node_modules package-lock.json
+nvm use
+npm cache clean --force
+npm i
+```
+### Add this to `.zshrc` to automatically use the correct node version
+```bash
+autoload -U add-zsh-hook
 
+load-nvmrc() {
+  if [ -f .nvmrc ]; then
+    nvm use --silent
+  elif nvm_version=$(nvm version default); then
+    nvm use default --silent
+  fi
+}
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc`
+```
+### package.json
 ```json
 "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
@@ -15,8 +37,3 @@
   }
 ```
 
-```bash
-rm -rf node_modules package-lock.json
-npm i
-nvm use
-```
