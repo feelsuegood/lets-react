@@ -15,6 +15,8 @@
   }
 ```
 
-
-## CSS Reference
-   https://dribbble.com/shots/2442798-Movie-Application
+```bash
+rm -rf node_modules package-lock.json
+npm i
+nvm use
+```
