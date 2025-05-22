@@ -23,10 +23,9 @@ lets-react/
    ```bash
    rm -rf node_modules package-lock.json
    ```
-3. Install specific Node.js version:
+3. Set Node.js version in .nvmrc:
    ```bash
-   nvm install 16
-   nvm use 16
+   nvm use
    ```
 4. Install dependencies:
    ```bash
