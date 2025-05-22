@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/lets-reactjs/static/js/main.c9045d82.js",
+    "index.html": "/lets-reactjs/index.html",
+    "main.c9045d82.js.map": "/lets-reactjs/static/js/main.c9045d82.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c9045d82.js"
+  ]
+}
