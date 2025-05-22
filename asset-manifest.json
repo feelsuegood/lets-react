@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/lets-react/static/js/main.3709fe84.js",
+    "main.css": "/lets-react/static/css/main.544245ed.css",
+    "main.js": "/lets-react/static/js/main.2aefe642.js",
     "index.html": "/lets-react/index.html",
-    "main.3709fe84.js.map": "/lets-react/static/js/main.3709fe84.js.map"
+    "main.544245ed.css.map": "/lets-react/static/css/main.544245ed.css.map",
+    "main.2aefe642.js.map": "/lets-react/static/js/main.2aefe642.js.map"
   },
   "entrypoints": [
-    "static/js/main.3709fe84.js"
+    "static/css/main.544245ed.css",
+    "static/js/main.2aefe642.js"
   ]
 }
