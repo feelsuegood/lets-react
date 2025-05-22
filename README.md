@@ -31,11 +31,10 @@ lets-react/
    ```bash
    npm install
    ```
-5. Start with legacy OpenSSL provider:
+5. Start the development server:
    ```bash
-   export NODE_OPTIONS=--openssl-legacy-provider
    npm start
-   ```
+   ``` 
 
 ## Technologies Used
 
