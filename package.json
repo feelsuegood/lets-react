@@ -1,5 +1,5 @@
 {
-  "name": "lets-reactjs",
+  "name": "lets-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://feelsuegood.github.io/lets-reactjs"
+  "homepage": "https://feelsuegood.github.io/lets-react"
 }
