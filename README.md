@@ -6,7 +6,7 @@ nvm use
 npm cache clean --force
 npm i
 ```
-### Add this to `.zshrc` to automatically use the correct node version
+### Add this to `.zshrc` to automatically use the correct node version (optional)
 ```bash
 autoload -U add-zsh-hook
 
@@ -24,8 +24,8 @@ load-nvmrc`
 ### package.json
 ```json
 "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^16.8.6",
