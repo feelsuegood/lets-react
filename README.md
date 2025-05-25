@@ -3,6 +3,7 @@
 ```bash
 rm -rf node_modules package-lock.json
 nvm use
+# 16.x (disabled since January 31st, 2025)
 npm cache clean --force
 npm i
 ```
