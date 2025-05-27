@@ -28,12 +28,3 @@
     width: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .movies {
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-    width: 100%;
-  }
-}
