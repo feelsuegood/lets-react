@@ -24,6 +24,9 @@
   box-sizing: border-box;
   justify-items: center; /* set center each item */
   justify-content: center; /* set center all items */
+  /* justify-content: set horizontal center all in grid container
+  align-items: set vertical center each item in grid container
+  align-content: set vertical center all items in grid container */
 }
 
 @media screen and (max-width: 1090px) {
