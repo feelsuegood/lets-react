@@ -25,6 +25,10 @@ function Home() {
     const response = await fetch(
       "https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year",
     );
+    //* update to TMDB API -> create branch
+    // const response = await fetch(
+    //   `https://api.themoviedb.org/3/movie/popular?language=en-US&api_key=${API_KEY}`,
+    // );
     const json = await response.json();
     setMovies(json.data.movies);
     setLoading(false);

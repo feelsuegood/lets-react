@@ -1,8 +1,8 @@
-# Let's React
+# 🎥 Let's React
 
 A Movie App Project for React practice for learning and implementing various React concepts and features.
 
-## Project Structure
+## 📦 Project Structure
 
 ```
 lets-react/
@@ -16,7 +16,7 @@ lets-react/
     └── routes/        # Route components
 ```
 
-### React-2019 Branch
+### 🌳 React-2019 Branch
 **Important: Branch Switching Instructions**
 1. Checkout to react-2019 branch
 2. Remove existing dependencies:
@@ -36,7 +36,7 @@ lets-react/
    npm start
    ``` 
 
-## Technologies Used
+## 💻 Technologies Used
 
 - React 19.1.0
 - React Router DOM 7.6.0
@@ -44,20 +44,20 @@ lets-react/
 - PropTypes
 - GitHub Pages for deployment
 
-## Available Scripts
+## 📦 Available Scripts
 
 - `npm start`: Runs the app in development mode
 - `npm test`: Launches the test runner
 - `npm run build`: Builds the app for production
 - `npm run deploy`: Deploys the app to GitHub Pages
 
-## Development Environment
+## 💻 Development Environment
 
 - Node.js
 - npm
 - Create React App
 
-## Features
+## 🎯 Features
 
 - Modern React practices and patterns
 - Component-based architecture
@@ -65,7 +65,7 @@ lets-react/
 - CSS Modules for styling
 - Automated deployment to GitHub Pages
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone the repository
 2. Install dependencies:
@@ -77,7 +77,7 @@ lets-react/
    npm start
    ```
 
-## Deployment
+## 🚀 Deployment
 
 The project is configured for deployment to GitHub Pages. To deploy:
 
@@ -85,17 +85,17 @@ The project is configured for deployment to GitHub Pages. To deploy:
 npm run deploy
 ```
 
-The app will be deployed to: https://feelsuegood.github.io/lets-react
+The app will be deployed to: https://feelsuegood.github.io/letsue-react
 
-## License
-
-This project is for personal and educational purposes.
-
-## Acknowledgements
+## 🏷️ License
+- CC BY-NC-SA 4.0 (non-commercial research only)
+- This project is for non-commercial research and educational purposes only.
+  
+## 📚 Acknowledgements
 - [Movie Application](https://dribbble.com/shots/2442798-Movie-Application)
 - [React for Beginners](https://nomadcoders.co/react-for-beginners)
 
-## Planned Improvements
+## 📝 Planned Improvements
 
 1. Detail Page Enhancement
    - Implement state management for JSON data
