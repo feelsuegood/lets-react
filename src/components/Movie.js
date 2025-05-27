@@ -5,7 +5,13 @@ import styles from "./Movie.module.css";
 function Movie({ id, coverImg, title, year, summary, genres }) {
   return (
     <div className={styles.movie}>
-      <img className={styles.movie__img} src={coverImg} alt={title} />
+      <Link to={`/movie/${id}`}>
+        <img
+          className={styles.movie__img}
+          src={`https://image.tmdb.org/t/p/w500${coverImg}`}
+          alt={title}
+        />
+      </Link>
       <div className={styles.movie__container}>
         <h2 className={styles.movie__title}>
           <Link to={`/movie/${id}`}>{title}</Link>
@@ -15,8 +21,8 @@ function Movie({ id, coverImg, title, year, summary, genres }) {
           {summary.length > 235 ? `${summary.slice(0, 235)}...` : summary}
         </p>
         <ul className={styles.movie__genres}>
-          {genres.map((g) => (
-            <li key={g}>{g}</li>
+          {genres.map((genre) => (
+            <li key={genre.id}>{genre.name}</li>
           ))}
         </ul>
       </div>
