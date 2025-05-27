@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/letsue-react/static/css/main.3af1eba4.css",
+    "main.css": "/letsue-react/static/css/main.b691c281.css",
     "main.js": "/letsue-react/static/js/main.89dad630.js",
     "index.html": "/letsue-react/index.html",
-    "main.3af1eba4.css.map": "/letsue-react/static/css/main.3af1eba4.css.map",
+    "main.b691c281.css.map": "/letsue-react/static/css/main.b691c281.css.map",
     "main.89dad630.js.map": "/letsue-react/static/js/main.89dad630.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af1eba4.css",
+    "static/css/main.b691c281.css",
     "static/js/main.89dad630.js"
   ]
 }
