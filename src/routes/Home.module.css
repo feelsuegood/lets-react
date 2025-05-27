@@ -2,6 +2,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .loader {
@@ -20,11 +21,23 @@
   padding: 50px;
   width: 80%;
   padding-top: 70px;
+  box-sizing: border-box;
+  justify-items: center; /* set center each item */
+  justify-content: center; /* set center all items */
 }
 
 @media screen and (max-width: 1090px) {
   .movies {
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .movies {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;
     width: 100%;
   }
 }
